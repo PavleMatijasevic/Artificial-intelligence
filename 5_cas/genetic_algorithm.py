@@ -31,7 +31,7 @@ class Problem:
         return chromosome.fitness >= self.target_fitness
     
     def __str__(self):
-        return "{} = {}".format(self.target, self.target_fitness)
+        return "{} = {}".format(''.join(self.target), self.target_fitness)
     
 class GeneticAlgorithm:
     def __init__(self, problem):
