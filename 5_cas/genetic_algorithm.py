@@ -50,7 +50,7 @@ class GeneticAlgorithm:
         result = []
         for _ in range(self.generation_size):
             genetic_code = [random.choice(self.problem.possible_gene_values) for _ in range(self.chromosome_size)]
-            fitness =self.problem.calculate_fitness(genetic_code)
+            fitness = self.problem.calculate_fitness(genetic_code)
             chromosome = Chromosome(genetic_code, fitness)
             result.append(chromosome)
         return result
@@ -122,8 +122,8 @@ class GeneticAlgorithm:
                 result = current_best
                 break
             
-            if i - global_best_iteration_found >= 4:
-                print('No better chromosome in 4 iterations')
+            if i - global_best_iteration_found >= 15:
+                print('No better chromosome in 15 iterations')
                 result = global_best
                 break
         return result            
