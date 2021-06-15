@@ -16,3 +16,19 @@ Ne.
 
 Da li se praktični i teorijski rade zajedno ili u odvojenim terminima?
 Prakticni na racunarima, teorijski na papiru, pauza izmedju. U slučaju velikog broja prijavljenih može se desiti da jedna grupa prvo radi teorijski pa praktičini, a druga grupa praktični pa teorijski.
+
+
+
+Dodatak!!!!:
+Na pismenom ispitu će po oblastima biti dostupna sledeća dokumentacija i pomoć.
+
+    Logika
+    Z3 - potpisi funkcija korišćenih na času
+    Vampire - ukoliko bude potrebno pozivanje rešavača sa dodatnim opcijama biće date uz zadatak
+    Minisat - ukoliko bude potrebno pozivanje rešavača sa dodatnim opcijama biće date uz zadatak
+
+    Mašinsko učenje
+    Na virtuelnim mašinama postoji dokumentacija za: python, numpy, pandas i sklearn.
+    Sve potrebne funkcije biće već uključene na ispitu.
+
+Iz vizuelizacije podataka neće biti funkcija kao što su plot_image ili plot_value_array iz ovog primera, ali može biti nešto osnovno kao iz ovog primera.
